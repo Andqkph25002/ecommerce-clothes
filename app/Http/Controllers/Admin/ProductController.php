@@ -58,7 +58,6 @@ class ProductController extends Controller
         $data['trend'] = $request->trend;
         $data['mid_slider'] = $request->mid_slider;
         $data['hot_new'] = $request->hot_new;
-        // $data['buyone_getone'] = $request->buyone_getone;
         $data['status'] = 1;
         $data['created_at'] = Carbon::now('Asia/Ho_Chi_Minh');
         $image_one = $request->image_one;
